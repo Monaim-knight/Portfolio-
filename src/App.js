@@ -136,9 +136,16 @@ function App() {
               </div>
               <div className="project-item">
                 <h4>The Convergence and Divergence Theory</h4>
-                <p>Analysis and code for the convergence and divergence theory, including R scripts, data, and generated plots (Density.pdf, Rplot.pdf).</p>
+                <p>
+                  Analysis and code for the convergence and divergence theory, including R scripts, data, and generated plots (Density.pdf, Rplot.pdf).
+                </p>
                 <div className="project-links">
-                  <a href="https://github.com/Monaim-knight/lee-2004" target="_blank" rel="noopener noreferrer" className="project-link">
+                  <a
+                    href="https://github.com/Monaim-knight/lee-2004"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
                     📚 View Project
                   </a>
                 </div>
