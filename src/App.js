@@ -1,13 +1,9 @@
 import React, { useRef } from 'react';
-import { generatePDF } from 'react-to-pdf';
+import ReactToPdf from 'react-to-pdf';
 import './App.css';
 
 function App() {
   const targetRef = useRef();
-
-  const downloadPDF = () => {
-    generatePDF(targetRef, { filename: 'Islam_Md_Monaim_Portfolio.pdf' });
-  };
 
   return (
     <div className="App">
@@ -15,9 +11,13 @@ function App() {
         <div className="container">
           <div className="header-top">
             <h1 className="name">Islam Md Monaim</h1>
-            <button onClick={downloadPDF} className="download-btn">
-              📄 Download PDF
-            </button>
+            <ReactToPdf targetRef={targetRef} filename="Islam_Md_Monaim_Portfolio.pdf">
+              {({ toPdf }) => (
+                <button onClick={toPdf} className="download-btn">
+                  📄 Download PDF
+                </button>
+              )}
+            </ReactToPdf>
           </div>
           <div className="contact-info">
             <span>📍 Berlin, Germany</span>
