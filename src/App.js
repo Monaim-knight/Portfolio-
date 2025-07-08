@@ -105,6 +105,15 @@ function App() {
             </div>
             <div className="projects-grid">
               <div className="project-item">
+                <h4>K-Beauty Hub</h4>
+                <p>E-commerce platform for Korean beauty products with modern UI/UX design, product catalog, and shopping cart functionality.</p>
+                <div className="project-links">
+                  <a href="https://github.com/Monaim-knight/k-beauty-hub" target="_blank" rel="noopener noreferrer" className="project-link">
+                    🛍️ View Project
+                  </a>
+                </div>
+              </div>
+              <div className="project-item">
                 <h4>Female Labor Force Participation Rate</h4>
                 <p>Descriptive analysis, OLS, Joint Significance Test, Statistical Significance using HTML and statistical methods.</p>
                 <div className="project-links">
