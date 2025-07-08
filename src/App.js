@@ -1,23 +1,13 @@
-import React, { useRef } from 'react';
-import ReactToPdf from 'react-to-pdf';
+import React from 'react';
 import './App.css';
 
 function App() {
-  const targetRef = useRef();
-
   return (
     <div className="App">
       <header className="header">
         <div className="container">
           <div className="header-top">
             <h1 className="name">Islam Md Monaim</h1>
-            <ReactToPdf targetRef={targetRef} filename="Islam_Md_Monaim_Portfolio.pdf">
-              {({ toPdf }) => (
-                <button onClick={toPdf} className="download-btn">
-                  📄 Download PDF
-                </button>
-              )}
-            </ReactToPdf>
           </div>
           <div className="contact-info">
             <span>📍 Berlin, Germany</span>
@@ -32,7 +22,7 @@ function App() {
         </div>
       </header>
 
-      <main className="main-content" ref={targetRef}>
+      <main className="main-content">
         <div className="container">
           <section className="section">
             <h3>Professional Summary</h3>
