@@ -99,7 +99,7 @@ function App() {
           <section className="section">
             <h3>Projects</h3>
             <div className="github-profile">
-              <a href="https://github.com/monaimk072" target="_blank" rel="noopener noreferrer" className="github-link">
+              <a href="https://github.com/Monaim-knight" target="_blank" rel="noopener noreferrer" className="github-link">
                 <span>🐙 View My GitHub Profile</span>
               </a>
             </div>
@@ -108,7 +108,7 @@ function App() {
                 <h4>GDP Trend Analysis</h4>
                 <p>Used Hodrick-Prescott Filter (R, Tableau) to model economic cycles for EU markets.</p>
                 <div className="project-links">
-                  <a href="https://github.com/monaimk072/gdp-trend-analysis" target="_blank" rel="noopener noreferrer" className="project-link">
+                  <a href="https://github.com/Monaim-knight/gdp-trend-analysis" target="_blank" rel="noopener noreferrer" className="project-link">
                     📊 View Project
                   </a>
                 </div>
@@ -117,7 +117,7 @@ function App() {
                 <h4>Pricing Optimization</h4>
                 <p>Developed a cost-saving model for an e-commerce platform (SQL, Excel).</p>
                 <div className="project-links">
-                  <a href="https://github.com/monaimk072/pricing-optimization" target="_blank" rel="noopener noreferrer" className="project-link">
+                  <a href="https://github.com/Monaim-knight/pricing-optimization" target="_blank" rel="noopener noreferrer" className="project-link">
                     💰 View Project
                   </a>
                 </div>
@@ -126,7 +126,7 @@ function App() {
                 <h4>Customer Churn Prediction</h4>
                 <p>Built a predictive model (Python, Scikit-learn) to reduce attrition by 12%.</p>
                 <div className="project-links">
-                  <a href="https://github.com/monaimk072/customer-churn-prediction" target="_blank" rel="noopener noreferrer" className="project-link">
+                  <a href="https://github.com/Monaim-knight/customer-churn-prediction" target="_blank" rel="noopener noreferrer" className="project-link">
                     📈 View Project
                   </a>
                 </div>
@@ -135,7 +135,7 @@ function App() {
                 <h4>Data Analysis Portfolio</h4>
                 <p>Professional portfolio website built with React, showcasing data analysis skills and projects.</p>
                 <div className="project-links">
-                  <a href="https://github.com/monaimk072/portfolio" target="_blank" rel="noopener noreferrer" className="project-link">
+                  <a href="https://github.com/Monaim-knight/portfolio" target="_blank" rel="noopener noreferrer" className="project-link">
                     🌐 View Project
                   </a>
                 </div>
