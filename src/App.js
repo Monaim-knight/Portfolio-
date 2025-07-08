@@ -105,29 +105,47 @@ function App() {
             </div>
             <div className="projects-grid">
               <div className="project-item">
-                <h4>GDP Trend Analysis</h4>
-                <p>Used Hodrick-Prescott Filter (R, Tableau) to model economic cycles for EU markets.</p>
+                <h4>Female Labor Force Participation Rate</h4>
+                <p>Descriptive analysis, OLS, Joint Significance Test, Statistical Significance using HTML and statistical methods.</p>
                 <div className="project-links">
-                  <a href="https://github.com/Monaim-knight/gdp-trend-analysis" target="_blank" rel="noopener noreferrer" className="project-link">
+                  <a href="https://github.com/Monaim-knight/Female-labor-force-participation-rate" target="_blank" rel="noopener noreferrer" className="project-link">
                     📊 View Project
                   </a>
                 </div>
               </div>
               <div className="project-item">
-                <h4>Pricing Optimization</h4>
-                <p>Developed a cost-saving model for an e-commerce platform (SQL, Excel).</p>
+                <h4>Econometrics Analysis</h4>
+                <p>Descriptive Analysis, OLS & LSDV estimator, Statistical Significance testing for economic data.</p>
                 <div className="project-links">
-                  <a href="https://github.com/Monaim-knight/pricing-optimization" target="_blank" rel="noopener noreferrer" className="project-link">
+                  <a href="https://github.com/Monaim-knight/Economatrics" target="_blank" rel="noopener noreferrer" className="project-link">
+                    📈 View Project
+                  </a>
+                </div>
+              </div>
+              <div className="project-item">
+                <h4>Website Visitors Analysis</h4>
+                <p>Time Series Analysis, Dickey-Fuller Test, ACF, PACF, ARIMA model, and Forecasting techniques.</p>
+                <div className="project-links">
+                  <a href="https://github.com/Monaim-knight/Website-Visitors" target="_blank" rel="noopener noreferrer" className="project-link">
+                    🌐 View Project
+                  </a>
+                </div>
+              </div>
+              <div className="project-item">
+                <h4>Financial Data Analytics</h4>
+                <p>Financial Data Analytics in Python - classroom projects and financial modeling techniques.</p>
+                <div className="project-links">
+                  <a href="https://github.com/Monaim-knight/classroom_Monaim" target="_blank" rel="noopener noreferrer" className="project-link">
                     💰 View Project
                   </a>
                 </div>
               </div>
               <div className="project-item">
-                <h4>Customer Churn Prediction</h4>
-                <p>Built a predictive model (Python, Scikit-learn) to reduce attrition by 12%.</p>
+                <h4>Pauperism Analysis</h4>
+                <p>Annual growth rate analysis of pauperism and outrelief using statistical methods.</p>
                 <div className="project-links">
-                  <a href="https://github.com/Monaim-knight/customer-churn-prediction" target="_blank" rel="noopener noreferrer" className="project-link">
-                    📈 View Project
+                  <a href="https://github.com/Monaim-knight/Pauperism-" target="_blank" rel="noopener noreferrer" className="project-link">
+                    📊 View Project
                   </a>
                 </div>
               </div>
@@ -136,7 +154,7 @@ function App() {
                 <p>Professional portfolio website built with React, showcasing data analysis skills and projects.</p>
                 <div className="project-links">
                   <a href="https://github.com/Monaim-knight/portfolio" target="_blank" rel="noopener noreferrer" className="project-link">
-                    🌐 View Project
+                    🎯 View Project
                   </a>
                 </div>
               </div>
