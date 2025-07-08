@@ -114,6 +114,15 @@ function App() {
                 </div>
               </div>
               <div className="project-item">
+                <h4>Website Visitors Time Series Forecasting</h4>
+                <p>End-to-end time series analysis and forecasting using R, ARIMA modeling, Dickey-Fuller Test, ACF/PACF analysis for website traffic prediction.</p>
+                <div className="project-links">
+                  <a href="https://github.com/Monaim-knight/visitors-forcasting-" target="_blank" rel="noopener noreferrer" className="project-link">
+                    📈 View Project
+                  </a>
+                </div>
+              </div>
+              <div className="project-item">
                 <h4>Female Labor Force Participation Rate</h4>
                 <p>Descriptive analysis, OLS, Joint Significance Test, Statistical Significance using HTML and statistical methods.</p>
                 <div className="project-links">
