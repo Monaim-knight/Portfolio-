@@ -30,11 +30,38 @@ body {
   text-align: center;
 }
 
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .name {
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 20px;
   letter-spacing: 1px;
+  margin: 0;
+}
+
+.download-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.download-btn:hover {
+  background: white;
+  color: #1e3c72;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
 }
 
 .contact-info {
@@ -374,6 +401,16 @@ body {
 @media (max-width: 768px) {
   .container {
     padding: 0 15px;
+  }
+  
+  .header-top {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .download-btn {
+    align-self: center;
   }
   
   .header {

@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { generatePDF } from 'react-to-pdf';
 import './App.css';
 
 function App() {
+  const targetRef = useRef();
+
+  const downloadPDF = () => {
+    generatePDF(targetRef, { filename: 'Islam_Md_Monaim_Portfolio.pdf' });
+  };
+
   return (
     <div className="App">
       <header className="header">
         <div className="container">
-          <h1 className="name">Islam Md Monaim</h1>
+          <div className="header-top">
+            <h1 className="name">Islam Md Monaim</h1>
+            <button onClick={downloadPDF} className="download-btn">
+              📄 Download PDF
+            </button>
+          </div>
           <div className="contact-info">
             <span>📍 Berlin, Germany</span>
             <span>📞 +49 1724516678</span>
@@ -20,7 +32,7 @@ function App() {
         </div>
       </header>
 
-      <main className="main-content">
+      <main className="main-content" ref={targetRef}>
         <div className="container">
           <section className="section">
             <h3>Professional Summary</h3>
@@ -119,6 +131,15 @@ function App() {
                 <div className="project-links">
                   <a href="https://github.com/Monaim-knight/visitors-forcasting-" target="_blank" rel="noopener noreferrer" className="project-link">
                     📈 View Project
+                  </a>
+                </div>
+              </div>
+              <div className="project-item">
+                <h4>The Convergence and Divergence Theory</h4>
+                <p>Analysis and code for the convergence and divergence theory, including R scripts, data, and generated plots (Density.pdf, Rplot.pdf).</p>
+                <div className="project-links">
+                  <a href="https://github.com/Monaim-knight/lee-2004" target="_blank" rel="noopener noreferrer" className="project-link">
+                    📚 View Project
                   </a>
                 </div>
               </div>
